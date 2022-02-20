@@ -1,7 +1,0 @@
-
-
-{
-  "feature": [{ "id": 1, "type": "Travel", "title": "Louvre Abu Dhabi marks 4th anniversary with world class exhibitions, programming for all", "cardText": "Louvre Abu Dhabi marks 4th anniversary with world class exhibitions, programming for all", "featureImg": require() }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" }
-}
