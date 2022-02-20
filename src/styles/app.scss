@@ -1,0 +1,37 @@
+//import fonts
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p,
+span,
+a {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+article {
+  margin-bottom: 40px !important;
+}
+@import "./_variables";
+@import "../components/Header/header";
+@import "../components/Articles/Feature/feature";
+@import "../components/Articles/ArticleDesignTwo/designTwo";
+@import "../components/Articles/ArticleDesignThree/designThree";
+@import "../components/Articles/ArticleDesignFour/designFour";
+@import "../components/Articles/ArticleDesignFive/designFive";
+@import "../components/Articles/ArticleDesignSix/designSix";
+@import "../components/Footer/footer";

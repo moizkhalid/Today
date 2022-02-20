@@ -1,0 +1,33 @@
+.article-design-six {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  h5.contant {
+    max-width: 346px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:nth-of-type(2n) img {
+    order: 4;
+  }
+  p.type {
+    text-align: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 10px auto 0;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    padding: 5px 6px;
+    text-transform: uppercase;
+  }
+}

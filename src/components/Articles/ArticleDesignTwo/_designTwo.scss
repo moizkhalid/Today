@@ -1,0 +1,43 @@
+.article-with-avatar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: $whiteLinen;
+  padding: 50px;
+
+  .card-with-avatar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  img {
+    width: 187px;
+    height: 187px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+  }
+
+  h5.name {
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding: 5px 6px;
+  }
+
+  p.desc {
+    text-align: center;
+    font-family: "Playfair Display";
+    max-width: 165px;
+    margin: 0 auto;
+  }
+}

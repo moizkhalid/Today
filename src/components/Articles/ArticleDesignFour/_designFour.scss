@@ -1,0 +1,53 @@
+.article-design-four {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: $whiteLinen;
+  padding: 50px;
+
+  .card-with-avatar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  img {
+    width: 187px;
+    height: 187px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+  }
+
+  h5.name {
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    padding: 5px 6px;
+    text-transform: uppercase;
+  }
+
+  p.desc {
+    text-align: center;
+    font-family: "Playfair Display";
+    max-width: 165px;
+    margin: 0 auto;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .publisher {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
